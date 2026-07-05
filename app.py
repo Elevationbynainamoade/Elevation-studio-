@@ -85,7 +85,7 @@ def make_certificate(beneficiary, number, collection, work_title):
     c.drawCentredString(w/2, h - 74*mm, "Première édition - Juin 2026")
 
     y = h - 95*mm
-    lines = 
+    lines = [
         "Le présent document certifie que cet exemplaire a été préparé exclusivement pour :",
         "",
         beneficiary,

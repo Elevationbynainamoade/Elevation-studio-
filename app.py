@@ -82,20 +82,20 @@ def make_certificate(beneficiary, number, collection, work_title):
     c.setFillColor(purple)
     c.setFont("Helvetica", 12)
     c.drawCentredString(w/2, h - 65*mm, f"{work_title} - Collection {collection}")
-    c.drawCentredString(w/2, h - 74*mm, "Premiere Edition - Juin 2026")
+    c.drawCentredString(w/2, h - 74*mm, "Première édition - Juin 2026")
 
     y = h - 95*mm
-    lines = [
-        "Le present document certifie que cet exemplaire a ete prepare exclusivement pour :",
+    lines = 
+        "Le présent document certifie que cet exemplaire a été préparé exclusivement pour :",
         "",
         beneficiary,
         "",
-        f"Numero d'exemplaire : {number}",
+        f"Numéro d'exemplaire : {number}",
         "",
-        "Cet exemplaire est personnalise, numerote et certifie conforme.",
-        "Il est destine a un usage personnel exclusivement.",
-        "Toute reproduction, diffusion ou transmission a un tiers est interdite",
-        "sans l'autorisation ecrite de l'autrice.",
+        "Cet exemplaire est personnalisé, numeroté et certifié conforme.",
+        "Il est destiné à un usage personnel exclusivement.",
+        "Toute reproduction, diffusion ou transmission à un tiers est interdite",
+        "sans l'autorisation écrite de l'autrice.",
         "",
         "Tout depend de toi.",
         "",
@@ -169,7 +169,7 @@ Je suis heureuse de vous transmettre votre exemplaire personnel d'INVINCIBLE, le
 
 Exemplaire personnel n° {number}
 
-Cet exemplaire a ete prepare exclusivement pour {beneficiary} et fait partie de la Premiere Edition d'INVINCIBLE, publiee par ELEVATION by NAINAMOADE en juin 2026.
+Cet exemplaire a été préparé exclusivement pour {beneficiary} et fait partie de la Premiere Edition d'INVINCIBLE, publiée par ELEVATION by NAINAMOADE en juin 2026.
 
 Votre exemplaire est personnalise, numerote et certifie. Il a ete prepare specialement pour vous dans le cadre de cette premiere edition.
 
@@ -181,7 +181,7 @@ NAINAMOADE
 Fondatrice
 ELEVATION by NAINAMOADE
 
-P.S. Votre exemplaire est destine a votre usage personnel exclusif. J'aurai beaucoup de plaisir a recevoir vos impressions, vos prises de conscience ou les enseignements qui vous auront le plus marquee au cours de votre lecture.
+P.S. Votre exemplaire est destiné a votre usage personnel exclusif. J'aurai beaucoup de plaisir à recevoir vos impressions, vos prises de conscience ou les enseignements qui vous auront le plus marquee au cours de votre lecture.
 """
 
 st.set_page_config(page_title=APP_TITLE, page_icon="👑", layout="wide")
